@@ -65,13 +65,16 @@ const navFunc = () => {
     navs.classList.add("sidenav");
     navs.insertAdjacentHTML(
       "afterbegin",
-      `<button class="close-button" style="width: 50px">
+      `<button class="close-button" style="width: 80px">
         <i class="fas fa-times"></i>
       </button>`
     );
-    navs.style.fontSize = "3.2rem";
 
     const closeHambuger = document.querySelector(".close-button");
+    closeHambuger.style.height = "80px";
+    closeHambuger.style.fontSize = "5.2rem";
+    closeHambuger.style.marginLeft = "86rem";
+
     closeHambuger.addEventListener("click", (e) => {
       e.preventDefault();
       navs.classList.remove("sidenav");
