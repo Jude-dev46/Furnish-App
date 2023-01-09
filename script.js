@@ -65,7 +65,7 @@ const navFunc = () => {
     navs.classList.add("sidenav");
     navs.insertAdjacentHTML(
       "afterbegin",
-      `<button class="close-button" style="width: 80px">
+      `<button class="close-button" style="width: 50px">
         <i class="fas fa-times"></i>
       </button>`
     );
@@ -73,7 +73,7 @@ const navFunc = () => {
     const closeHambuger = document.querySelector(".close-button");
     closeHambuger.style.height = "80px";
     closeHambuger.style.fontSize = "5.2rem";
-    closeHambuger.style.marginLeft = "86rem";
+    closeHambuger.style.marginLeft = "45rem";
 
     closeHambuger.addEventListener("click", (e) => {
       e.preventDefault();
