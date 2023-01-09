@@ -36,7 +36,7 @@ img {
 
 @media (max-width: 575px) {
   body {
-    width: 100vw;
+    width: 575px;
   }
 }
 
@@ -88,25 +88,24 @@ img {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575px) {
   .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2.4rem;
-    width: 100rem;
+    width: 100%;
   }
-  .nav-container img {
-    width: 30rem;
-  }
+
   .nav-container.sticky {
     position: fixed;
+    width: 575px;
   }
   .nav-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90rem;
+    width: 90%;
   }
   .navs {
     display: none;
@@ -133,7 +132,7 @@ img {
     gap: 3.2rem;
     background-color: #fff;
     height: 35%;
-    width: 100rem;
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -235,7 +234,7 @@ img {
 
 @media (max-width: 575px) {
   .container {
-    width: 100rem;
+    width: 100%;
     padding: 2rem;
     margin-left: 0;
     margin-right: 0;
@@ -334,20 +333,20 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100rem;
+    width: 100%;
     margin: 0 1rem;
   }
   .products-container img {
-    width: 90rem;
+    width: 90%;
   }
   .img-text {
-    top: 63rem;
-    left: 10rem;
+    top: 68rem;
+    left: 3rem;
 
     font-size: 3.2rem;
   }
   .img-text__1 {
-    top: 120rem;
+    top: 98rem;
   }
   .img-text h3 {
     font-size: 4.2rem;
@@ -364,11 +363,11 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100rem;
+    width: 100%;
     margin: 0 1rem;
   }
   .products-container img {
-    width: 100rem;
+    width: 100%;
   }
   .img-text {
     top: 80rem;
@@ -525,13 +524,13 @@ img {
     margin-top: 3.2rem;
     padding: 2rem;
 
-    width: 100rem;
+    width: 100%;
   }
   .shop-list {
     width: 100%;
   }
   .shop {
-    width: 90rem;
+    width: 90%;
     padding: 1rem;
   }
   .shop img {
@@ -542,9 +541,9 @@ img {
     font-size: 4.8rem;
   }
   .discount-1 {
-    top: 5rem;
-    left: 75rem;
-    font-size: 3.2rem;
+    top: 3rem;
+    left: 35rem;
+    font-size: 2.4rem;
     padding: 2.4rem;
   }
   .product-information h3 {
@@ -664,14 +663,14 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 3.2rem;
+    gap: 1rem;
 
-    width: 100rem;
+    width: 100%;
     padding: 2rem;
   }
   .service-intro,
   .row {
-    width: 90rem;
+    width: 90%;
   }
   .row span {
     font-size: 6.4rem;
@@ -697,11 +696,13 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2.4rem;
+    gap: 1rem;
+    width: 80%;
   }
   .sec1 {
     display: flex;
     flex-direction: column;
+    /* margin-left: 0; */
   }
   .sec2 {
     display: flex;
@@ -755,17 +756,17 @@ img {
     justify-content: center;
     padding: 2rem;
 
-    width: 100rem;
+    width: 100%;
   }
   .portfolio-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2.4rem;
-    width: 90rem;
+    width: 90%;
   }
   .portfolio-text {
-    width: 90rem;
+    width: 90%;
   }
   .portfolio-title h3 {
     font-size: 5.2rem;
@@ -777,10 +778,10 @@ img {
     display: none;
   }
   .portfolio-details {
-    width: 100rem;
+    width: 100%;
   }
   .portfolio-details img {
-    width: 95rem;
+    width: 95%;
   }
 }
 
@@ -916,7 +917,7 @@ img {
     padding: 1rem;
     margin-bottom: 13rem;
 
-    width: 100rem;
+    width: 100%;
   }
   .team-title h3 {
     font-size: 5.2rem;
@@ -940,20 +941,23 @@ img {
     justify-content: center;
     gap: 3.2rem;
   }
+  .team-desc__4 {
+    width: 90%;
+  }
   .team-desc__1 img {
-    width: 90rem;
+    width: 100%;
     height: 50rem;
   }
   .team-desc__2 img {
-    width: 90rem;
+    width: 100%;
     height: 50rem;
   }
   .team-desc__3 img {
-    width: 90rem;
+    width: 100%;
     height: 50rem;
   }
   .team-desc__4 img {
-    width: 90rem;
+    width: 100%;
     height: 50rem;
   }
   .desc-title h3 {
@@ -1003,14 +1007,15 @@ img {
 
 @media (max-width: 575px) {
   #testimonial {
-    width: 100rem;
+    width: 100%;
   }
   .testimonial__text {
-    width: 60rem;
-    height: 40rem;
+    width: 60%;
+    height: 32rem;
     padding: 1rem;
-    /* bottom: -20rem; */
-    right: 25rem;
+    bottom: -25rem;
+    left: 10rem;
+    font-size: 2rem;
   }
   .testimonial__text h6 {
     margin-bottom: 2rem;
@@ -1080,8 +1085,6 @@ img {
 .admin-title {
   font-size: 24px;
 }
-.fa-thin {
-}
 
 @media (max-width: 575px) {
   #blog {
@@ -1091,7 +1094,7 @@ img {
     gap: 3.2rem;
     padding: 2rem;
 
-    width: 100rem;
+    width: 100%;
   }
   .blog-title h3 {
     font-size: 5.2rem;
@@ -1106,14 +1109,14 @@ img {
     gap: 3.2rem;
     padding: 1rem;
 
-    width: 90rem;
+    width: 100%;
   }
   .blog-desc__1,
   .blog-desc__2,
   .blog-desc__3 {
     display: flex;
     flex-direction: column;
-    width: 90rem;
+    width: 90%;
     gap: 3.2rem;
   }
   .blog--img__title {
@@ -1121,7 +1124,7 @@ img {
     flex-direction: column;
     align-items: flex-start;
 
-    width: 90rem;
+    width: 90%;
   }
   .blog--img__title h3 {
     font-size: 4.8rem;
@@ -1130,7 +1133,7 @@ img {
     font-size: 3.2rem;
   }
   .admin {
-    width: 90rem;
+    width: 100%;
   }
   .admin-title {
     font-size: 4.8rem;
@@ -1256,8 +1259,7 @@ img {
   #contact {
     display: flex;
     flex-direction: column;
-    /* justify-items: center; */
-    width: 100rem;
+    width: 100%;
   }
   .contact-box {
     display: flex;
@@ -1266,7 +1268,7 @@ img {
     gap: 3.2rem;
     margin-left: 19rem;
 
-    width: 100rem;
+    width: 100%;
     height: 110rem;
   }
 
@@ -1275,7 +1277,7 @@ img {
     flex-direction: column;
     align-items: start;
 
-    width: 100rem;
+    width: 90%;
   }
   .contact-info h3 {
     font-size: 5.2rem;
@@ -1304,27 +1306,31 @@ img {
   .contact-input {
     display: flex;
     flex-direction: column;
-    width: 90rem;
+    width: 90%;
   }
   .input-box {
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
+    width: 90%;
   }
   .inputs {
     display: flex;
     flex-direction: column;
-    width: 90rem;
+    width: 90%;
   }
   .inputs input {
-    width: 90rem;
+    width: 90%;
     height: 10rem;
     font-size: 3.2rem;
   }
   .message textarea {
-    width: 90rem;
+    width: 90%;
     height: 30rem;
     font-size: 3.2rem;
+  }
+  .message button {
+    font-size: 2rem;
   }
 }
 
@@ -1423,7 +1429,7 @@ footer {
 
 @media (max-width: 575px) {
   footer {
-    width: 100rem;
+    width: 100%;
   }
   .footer-content {
     display: flex;
@@ -1431,12 +1437,12 @@ footer {
     align-items: flex-start;
     margin-left: 1rem;
 
-    width: 100rem;
+    width: 100%;
   }
   .content {
     display: flex;
     flex-direction: column;
-    width: 100rem;
+    width: 100%;
   }
   .content h3 {
     font-size: 5.2rem;
@@ -1461,7 +1467,7 @@ footer {
 
 @media (max-width: 575px) {
   .copyright {
-    width: 100rem;
+    width: 100%;
     text-align: left;
     padding-left: 6rem;
     font-size: 3.2rem;
