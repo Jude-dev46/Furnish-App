@@ -73,7 +73,7 @@ const navFunc = () => {
     const closeHambuger = document.querySelector(".close-button");
     closeHambuger.style.height = "80px";
     closeHambuger.style.fontSize = "5.2rem";
-    closeHambuger.style.marginLeft = "45rem";
+    closeHambuger.style.marginLeft = "28rem";
 
     closeHambuger.addEventListener("click", (e) => {
       e.preventDefault();
