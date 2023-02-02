@@ -66,14 +66,14 @@ const navFunc = () => {
     navs.insertAdjacentHTML(
       "afterbegin",
       `<button class="close-button" style="width: 50px">
-        <i class="fas fa-times"></i>
+        <i class="fa fa-times"></i>
       </button>`
     );
 
     const closeHambuger = document.querySelector(".close-button");
     closeHambuger.style.height = "80px";
-    closeHambuger.style.fontSize = "5.2rem";
-    closeHambuger.style.marginLeft = "28rem";
+    closeHambuger.style.fontSize = "4.2rem";
+    closeHambuger.style.marginLeft = "80%";
 
     closeHambuger.addEventListener("click", (e) => {
       e.preventDefault();
