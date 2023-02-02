@@ -826,7 +826,8 @@ img {
   letter-spacing: 1.5;
 }
 .service-intro p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  line-height: 1.1;
 }
 .service-img {
   display: flex;
@@ -972,6 +973,7 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: 48px;
+  gap: 32px;
 }
 .portfolio-title h3 {
   font-size: 32px;
@@ -1216,6 +1218,7 @@ img {
   }
   .team-title p {
     padding-left: 2rem;
+    padding-right: 2rem;
   }
   .team-desc {
     display: flex;
